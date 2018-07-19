@@ -12,17 +12,34 @@
   #content{
     width: 72%;
     float: left;
-    margin-right: 3%;
+    
   }
   /* левый контейнер */
   
   #sidebar-right{
     width: 25%;
     float: left;
+    margin-left: 3%
   }
 
   footer{
     padding: 30px 0;
     clear: both;
     color: white;
+  }
+
+  .logo {
+    width: 72%;
+    height: 100%;
+    max-width: 400px;
+    min-width: 220px;
+    float: left;
+  }
+
+  .post-social{
+    font-size: 20px;
+    width: auto;
+    margin-left: 3%;
+    margin-right: auto;
+    text-align: right;
   }
