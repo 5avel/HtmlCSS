@@ -1,0 +1,28 @@
+ /* Structural elements */
+
+
+ #wrapper{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+  }
+  
+  #content{
+    width: 72%;
+    float: left;
+    margin-right: 3%;
+  }
+  /* левый контейнер */
+  
+  #sidebar-right{
+    width: 25%;
+    float: left;
+  }
+
+  footer{
+    padding: 30px 0;
+    clear: both;
+    color: white;
+  }
