@@ -1,2 +1,26 @@
 /* CSS Document */
 
+html,body{
+ }
+ 
+ h1,h2,h3{}
+ p, blockquote, pre, code, ol, ul{}
+ 
+ /* Structural elements */
+ #wrapper{
+   width: 80%;
+   margin: 0 auto;
+   background: #fff;
+   padding: 20px;
+ }
+ 
+ #content{
+   width: 77%;
+   float: left;
+   margin-right: 3%;
+ }
+ 
+ #sidebar-right{
+   width: 20%;
+   float: left;
+ }
