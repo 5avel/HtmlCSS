@@ -9,7 +9,7 @@
     padding: 20px;
   }
   
-  #content{
+  #main{
     width: 72%;
     float: left;
     
@@ -68,9 +68,8 @@
     grid-row: 1/2;
     font-size: 22px;
     width: 100%;
-    margin-right: 25px;
     margin-top: 7px;
-    text-align: center;
+    text-align: left;
   }
 
   .fa-search:hover {

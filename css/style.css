@@ -36,7 +36,7 @@
   background-color: aqua;
  }
 
- #content{
+ #main{
    background-color: blueviolet;
  }
 
@@ -52,9 +52,23 @@ footer{
   color: black
 }
 
+#main{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	grid-gap: 10px;
+		
+}
+
+article{
+	
+}
+
     /* блок для статьи */
     .post {
-      margin-bottom: 35px;
+		padding: 10px;
+		align-items: center;
+		min-width: 300px;
+		
       }
       .post-content p {
       line-height: 1.5;
@@ -71,5 +85,28 @@ footer{
       margin-bottom: 12px;
       font-size: 26px;
       }
+.post-img{
+	overflow: hidden;
+}
+.post-img > img{
+	transition: 0.5s;
+	border: 0px;
+}
+.post-img > img:hover{
+	transform: scale(1.5);
+}
+
+
+/* comments */
+.size {
+    white-space: nowrap; /* Отменяем перенос текста */
+    overflow: hidden; /* Обрезаем содержимое */
+    padding: 5px; /* Поля */
+    text-overflow: ellipsis; /* Многоточие */
+   }
+   .size:hover {
+    background: #f0f0f0; /* Цвет фона */
+    white-space: normal; /* Обычный перенос текста */
+   }
 
 
