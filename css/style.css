@@ -78,7 +78,7 @@ article{
       margin-bottom: 15px;
       }
       .category a {
-      color: #F8B763;
+      color: #0072c6;
       text-transform: uppercase;
       }
       .post-title {
@@ -95,6 +95,98 @@ article{
 .post-img > img:hover{
 	transform: scale(1.5);
 }
+
+.block{
+	width: 100%;
+	text-align: center;
+	/*border: solid 1px black;*/
+	margin-bottom: 25px;
+}
+.social{
+	font-size: 22px;
+	margin: 0px 5px;
+}
+
+.block-heder{
+	border-bottom: solid 1px #0072c6;
+	margin-bottom: 10px;
+}
+.profile-img{
+	height: 100px;
+	width: 100px;
+	display: block;
+    margin: 0 auto;
+	border-radius: 100px; /* Радиус скругления */
+    border: 1px solid #0072c6; /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+}
+
+.subscribe-form > input{
+	margin-bottom: 10px;
+	width: 80%;
+}
+input[type=text], input[type=email] {
+
+    padding: 5px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=text]:focus, input[type=email]:focus {
+    border: 3px solid #0072c6;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #ccc;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #0072c6;
+}
+
+form.search input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+form.search button {
+	margin-top: 8px;
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #ccc;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+form.search button:hover {
+    background: #0072c6;
+}
+
+form.search::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 
 
 /* comments */
