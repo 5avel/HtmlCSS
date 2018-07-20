@@ -52,6 +52,23 @@ footer{
   color: black
 }
 
+@media only screen and (min-width: 600px) {
+.nav a {
+	margin-left: 5px;
+	height: 25px
+  width: auto;
+  border-radius: 3px;
+  background-color: #ccc;
+  padding: 2px 4px 2px 4px;
+  text-decoration: none;
+  color: #ffffff;
+}
+.nav a:hover {
+  background-color: #0072c6;
+  color: #ffffff;
+}
+}
+
 #main{
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -119,6 +136,14 @@ article{
 	border-radius: 100px; /* Радиус скругления */
     border: 1px solid #0072c6; /* Параметры рамки */
     box-shadow: 0 0 7px #666; /* Параметры тени */
+	transition: 0.5s;
+}
+.profile-img:hover{
+	transform: scale(1.15);
+}
+
+.name{
+	margin-top: 10px;
 }
 
 .subscribe-form > input{
@@ -126,7 +151,6 @@ article{
 	width: 80%;
 }
 input[type=text], input[type=email] {
-
     padding: 5px 10px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -155,23 +179,20 @@ input[type=submit]:hover {
     background-color: #0072c6;
 }
 
+
 form.search input[type=text] {
-    padding: 10px;
-    font-size: 17px;
-    border: 1px solid grey;
     float: left;
-    width: 80%;
-    background: #f1f1f1;
+	width: 85%;
 }
 
 form.search button {
 	margin-top: 8px;
     float: left;
-    width: 20%;
-    padding: 10px;
+    width: 15%;
+    padding: 6px;
     background: #ccc;
     color: white;
-    font-size: 17px;
+    font-size: 14px;
     border: 1px solid grey;
     border-left: none;
     cursor: pointer;
@@ -187,6 +208,55 @@ form.search::after {
     display: table;
 }
 
+.tags {
+  width: 100%;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 40px;
+	text-align: left;
+}
+
+.tags a {
+  width: auto;
+  border-radius: 13px;
+  background-color: #ccc;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  color: #ffffff;
+}
+.tags a:hover {
+  background-color: #0072c6;
+  color: #ffffff;
+}
+
+.comment{
+	text-align: left;
+}
+
+.comment-img{
+	height: 80px;
+	width: 80px;
+	margin-bottom: 10px;
+	display: block;
+	float: left;
+	border-radius: 100px; /* Радиус скругления */
+    border: 1px solid #0072c6; /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+	transition: 0.5s;
+}
+
+.comment-img:hover{
+	transform: scale(1.15);
+}
+
+.comment-name{
+	text-overflow: ellipsis;
+	margin-top: 28px;
+	margin-left: 10px;
+	float: left;
+}
 
 
 /* comments */
@@ -195,10 +265,12 @@ form.search::after {
     overflow: hidden; /* Обрезаем содержимое */
     padding: 5px; /* Поля */
     text-overflow: ellipsis; /* Многоточие */
+	transition: 0.5s;
    }
    .size:hover {
     background: #f0f0f0; /* Цвет фона */
     white-space: normal; /* Обычный перенос текста */
+	   
    }
 
 
