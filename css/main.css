@@ -10,7 +10,7 @@
   }
   
   #main{
-    width: 72%;
+    width: 70%;
     float: left;
     
   }
@@ -20,9 +20,10 @@
   }
   
   #sidebar-right{
-    width: 25%;
+    width: 28%;
     float: left;
-    margin-left: 3%
+    margin-left: 2%;
+	padding-top: 10px;
   }
 
   footer{
