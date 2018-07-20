@@ -1,26 +1,75 @@
 /* CSS Document */
 
-html,body{
+*, *:after, *:before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  }
+  ul {
+  list-style: none;
+  }
+  a {
+  text-decoration: none;
+  outline: none;
+  color: #0072c6;
+  }
+  img {
+  width: 100%;
+  }
+  h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display';
+  font-weight: normal;
+  letter-spacing: 1px;
+  }
+  body {
+  font-family: 'Open Sans', arial, sans-serif;
+  font-size: 14px;
+  line-height: 1;
+  color: #373737;
+  background: #f7f7f7;
+  }
+
+
+
+  /* Test 
+ header{
+  background-color: aqua;
  }
- 
- h1,h2,h3{}
- p, blockquote, pre, code, ol, ul{}
- 
- /* Structural elements */
- #wrapper{
-   width: 80%;
-   margin: 0 auto;
-   background: #fff;
-   padding: 20px;
- }
- 
+
  #content{
-   width: 77%;
-   float: left;
-   margin-right: 3%;
+   background-color: blueviolet;
  }
- 
+
  #sidebar-right{
-   width: 20%;
-   float: left;
- }
+  background-color: brown;
+}
+
+footer{
+  background-color: darkcyan;
+}*/
+
+.search > a{
+  color: black
+}
+
+    /* блок для статьи */
+    .post {
+      margin-bottom: 35px;
+      }
+      .post-content p {
+      line-height: 1.5;
+      padding-bottom: 1em;
+      }
+      .category {
+      margin-bottom: 15px;
+      }
+      .category a {
+      color: #F8B763;
+      text-transform: uppercase;
+      }
+      .post-title {
+      margin-bottom: 12px;
+      font-size: 26px;
+      }
+
+
