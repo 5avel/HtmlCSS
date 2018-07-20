@@ -136,6 +136,14 @@ article{
 	border-radius: 100px; /* Радиус скругления */
     border: 1px solid #0072c6; /* Параметры рамки */
     box-shadow: 0 0 7px #666; /* Параметры тени */
+	transition: 0.5s;
+}
+.profile-img:hover{
+	transform: scale(1.15);
+}
+
+.name{
+	margin-top: 10px;
 }
 
 .subscribe-form > input{
@@ -223,6 +231,32 @@ form.search::after {
   color: #ffffff;
 }
 
+.comment{
+	text-align: left;
+}
+
+.comment-img{
+	height: 80px;
+	width: 80px;
+	margin-bottom: 10px;
+	display: block;
+	float: left;
+	border-radius: 100px; /* Радиус скругления */
+    border: 1px solid #0072c6; /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+	transition: 0.5s;
+}
+
+.comment-img:hover{
+	transform: scale(1.15);
+}
+
+.comment-name{
+	text-overflow: ellipsis;
+	margin-top: 28px;
+	margin-left: 10px;
+	float: left;
+}
 
 
 /* comments */
@@ -231,10 +265,12 @@ form.search::after {
     overflow: hidden; /* Обрезаем содержимое */
     padding: 5px; /* Поля */
     text-overflow: ellipsis; /* Многоточие */
+	transition: 0.5s;
    }
    .size:hover {
     background: #f0f0f0; /* Цвет фона */
     white-space: normal; /* Обычный перенос текста */
+	   
    }
 
 
