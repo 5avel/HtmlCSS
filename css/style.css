@@ -14,7 +14,6 @@
   color: #0072c6;
   }
   img {
-  display: block;
   width: 100%;
   }
   h1, h2, h3, h4, h5, h6 {
@@ -30,16 +29,7 @@
   background: #f7f7f7;
   }
 
-  .logo>img {
-    width: 70%;
-    height: 100%;
-    max-width: 400px;
-    min-width: 220px;
-  }
 
-  .post-social{
-    font-size: 20px;
-  }
 
   /* Test 
  header{
@@ -58,10 +48,16 @@ footer{
   background-color: darkcyan;
 }*/
 
+.search{
+  margin-left: 10px;
+}
+.search > a{
+  color: black
+}
+
     /* блок для статьи */
     .post {
       margin-bottom: 35px;
-      margin-top: 35px;
       }
       .post-content p {
       line-height: 1.5;
@@ -78,4 +74,5 @@ footer{
       margin-bottom: 12px;
       font-size: 26px;
       }
+
 

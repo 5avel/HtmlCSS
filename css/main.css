@@ -14,7 +14,10 @@
     float: left;
     
   }
-  /* левый контейнер */
+
+  header{
+    margin-bottom: 15px;
+  }
   
   #sidebar-right{
     width: 25%;
@@ -36,10 +39,18 @@
     float: left;
   }
 
-  .post-social{
+  .header-social-search{
     font-size: 20px;
     width: auto;
     margin-left: 3%;
     margin-right: auto;
     text-align: right;
   }
+
+  .nav-container {
+  visibility: hidden;
+  }
+  #toggle{
+    visibility: hidden;
+  }
+  
